@@ -7,6 +7,7 @@ Los pines del DB25 deben conectarse a (yo he usado un antiguo conector de placa 
 4-5
 6-8-20
 
+
 El programa genera su propia memoria, con lo que se recuerda el contenido de cada sesión. Se pierde al reiniciarlo.
 
 El modelo por defecto es GPT-4o-mini y temperatura 0.7, pero el programa permite elegir el modelo y la temperatura pidiéndiselo directamente a ChatGPT, lo que cambia la configuración para la próxima pregunta.
