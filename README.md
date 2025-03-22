@@ -8,8 +8,8 @@ Se puede modificar para otros terminales. Una primera versión arcaica (de prueb
 
 El programa genera su propia memoria, con lo que se recuerda el contenido de cada sesión. Se pierde al reiniciarlo.
 
-Se añade dentro del programa la posibilidad de elegir el modelo y la temperatura pidiéndiselo directamente a ChatGPT, lo que cambia la configuración para la próxima pregunta.
+El modelo por defecto es GPT-4o-mini, pero el programa permite elegir el modelo y la temperatura pidiéndiselo directamente a ChatGPT, lo que cambia la configuración para la próxima pregunta.
 
-el programa realiza internamente la conversión de UTF-8 (ChatGPT) a ISO 8859 (IBM) para poderse usar con caracteres internacionales (mi terminal dispone del paquete español).
+El programa realiza internamente la conversión de UTF-8 (ChatGPT) a ISO 8859 (IBM) para poderse usar con caracteres internacionales (mi terminal dispone del paquete español).
 
 Espero que lo disfrutéis
