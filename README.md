@@ -1,6 +1,11 @@
 El objetivo es programar un ESP32 en Arduino para poder utilizar un IBM 3151 como terminal para hacer preguntas a ChatGPT y obtener sus respuestas en texto.
 
 El interfaz es un MAX232, puede trabajar perfectamente a 3.3V alimentado por el pin de 3.3V del ESP32. Conectarlo a la salida de 5V puede dañar el ESP.
+Los pines del DB25 deben conectarse a (yo he usado un antiguo conector de placa base de 386):
+2-TX
+3-RX
+4-5
+6-8-20
 
 El programa genera su propia memoria, con lo que se recuerda el contenido de cada sesión. Se pierde al reiniciarlo.
 
