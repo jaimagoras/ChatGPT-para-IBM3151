@@ -2,7 +2,7 @@ El objetivo es programar un ESP32 en Arduino para poder utilizar un IBM 3151 com
 
 El programa genera su propia memoria, con lo que se recuerda el contenido de cada sesión. Se pierde al reiniciarlo.
 
-El modelo por defecto es GPT-4o-mini, pero el programa permite elegir el modelo y la temperatura pidiéndiselo directamente a ChatGPT, lo que cambia la configuración para la próxima pregunta.
+El modelo por defecto es GPT-4o-mini y temperatura 0.7, pero el programa permite elegir el modelo y la temperatura pidiéndiselo directamente a ChatGPT, lo que cambia la configuración para la próxima pregunta.
 
 Se envían los comandos de configuración de pantalla del IBM3151 para tener dos viewports, uno con el cursor y otro con las respuestas. Presionar la tecla "enviar" envía a chatGPT la pregunta y muestra la respuesta en la parte superior, con scroll suave. 
 
