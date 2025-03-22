@@ -1,5 +1,7 @@
 El objetivo es programar un ESP32 en Arduino para poder utilizar un IBM 3151 como terminal para hacer preguntas a ChatGPT y obtener sus respuestas en texto.
 
+El interfaz es un MAX232, puede trabajar perfectamente a 3.3V alimentado por el pin de 3.3V del ESP32. Conectarlo a la salida de 5V puede dañar el ESP.
+
 El programa genera su propia memoria, con lo que se recuerda el contenido de cada sesión. Se pierde al reiniciarlo.
 
 El modelo por defecto es GPT-4o-mini y temperatura 0.7, pero el programa permite elegir el modelo y la temperatura pidiéndiselo directamente a ChatGPT, lo que cambia la configuración para la próxima pregunta.
